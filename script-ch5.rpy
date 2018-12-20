@@ -874,7 +874,7 @@ label ch5_end_yuri:
     "She falls silent."
     mc "How long?"
     y 1v "I've been doing it for while."
-    y 22 "But I promise I haven't done it for a while."
+    y 1w "But I promise I haven't done it for a while."
     y  "To be exact, I haven't done it since..."
     y 3v "Well...since you joined the club..."
     mc "So as long as I'm around, you don't do it."
@@ -1190,12 +1190,13 @@ label ch5_end_harem:
     m "Not that I blame you."
     show monika at thide
     hide monika
+    with wipeleft_scene
     "Natsuki inspects and cupcakes and touches a couple of things that got damaged on the way."
     "Yuri puts some finishing touches on the banner."
     "Sayori seems to be checking through the pamphlets that she helped design."
     "I decide to go and talk to Monika for a minute."
     show monika 1d at t11
-    m "Hey what's up?"
+    m "Hey, what's up?"
     mc "I wanted to apologize for not including you."
     mc "Again."
     m 2k "Don't worry about it."
@@ -1384,9 +1385,13 @@ label ch5_end_harem:
 
     "After Natsuki calms down a little, she decides to go and find her dad before he gets any angrier."
     "I offer to go with her but she declines."
+    scene bg club_day
+    show yuri 1h at t11
+    with dissolve_scene_full
     "In the meantime, I decide to head back to the club room and I find Yuri along the way."
     "I manage to catch the very end of Yuri delivering her poem and catch up to her a few moments later."
-
+    show yuri 1b at t11
+    with wipeleft_scene
     mc "Yuri, that was amazing."
     y 4a "Really?"
     mc "Every time you say one of your poems, everyone is just awestruck."
@@ -1413,7 +1418,7 @@ label ch5_end_harem:
     "Yuri seems pretty uncomfortable though."
     "She must not be used to being around this many people."
     "Not to mention the feeling like every pair of eyes on us."
-    scene corridor 
+    scene bg corridor 
     show yuri 1u at t11
     with dissolve_cg
     mc "Hey Yuri"
@@ -1463,7 +1468,7 @@ label ch5_end_harem:
     "She falls silent."
     mc "How long?"
     y 1v "I've been doing it for while."
-    y 22 "But I promise I haven't done it for a while."
+    y 1w "But I promise I haven't done it for a while."
     y  "To be exact, I haven't done it since..."
     y 3v "Well...since you joined the club..."
     mc "So as long as I'm around, you don't do it."
@@ -1482,17 +1487,16 @@ label ch5_end_harem:
     hide yuri
     "As soon as she says that, she pulls her book up to cover her face."
     mc "Yuri"
-
     mc "I definitely like you too."
     "As the words leave my mouth, I think back to Natsuki and Sayori."
     "I must show it on my face because Yuri immediately reacts."
+    show yuri 2v at t11
     y "It's okay."
     y "I know I'm not the only one."
     y "But I think"
-    y "I can manage with it in time."
+    y 2w "I can manage with it in time."
     y "As long as you really do you like me, that is."
     mc "There's another problem."
-
     y 2t "What's that?"
     mc "I don't want you doing this to yourself ever again."
     mc "I hate seeing you hurt."
@@ -1503,12 +1507,12 @@ label ch5_end_harem:
     y 4e "I won't ever need anymore of a rush."
     "She smiles and blushes."
     "It must be tough for her to be this straightforward."
-    scene classet with dissolve_cg
     "But I'm glad that things seem to finally have worked out."
-    
+    scene bg club_day 
+    show sayori 3b at t11
+    with wipeleft_scene
     "We end up deciding to go back to the club room and see Sayori's poem."
     "Sayori sees us and she clearly gets filled with confidence."
-    
     show sayori 4r at t11
     "She immediately goes overboard with it."
     show sayori at thide
@@ -1518,7 +1522,7 @@ label ch5_end_harem:
     "By the time she finishes, everyone is either laughing or applauding."
     "It really does amaze me how she can be such a big bright light to everyone."
     "Especially when she herself is having so many problems."
-    show sayori 1x
+    show sayori 1x at t11
     s "So did I do good?"
     mc "Yeah, that was amazing."
     mc "And to think that you were gonna be late today."
@@ -1526,25 +1530,26 @@ label ch5_end_harem:
     s "That's why I have you."
     s "To wake me up and get me going"
     "I can't help but blush a little at the compliment."
-
     "Yuri nudges me forward and motions that it's okay."
+    scene bg corridor with wipeleft_scene
     "Sayori and I sneak off without another word."
     "Honestly, I'm really excited though."
     "I may never understand her, but I love being around her."
     "By the time we get to see the rest of festival, it's already pretty late."
-
     mc "Hey Sayori."
+    show sayori 3b at t11 
     s "Yeah?"
     mc "Will you wait for me at the school gate?"
     s "Yeah, why?"
     mc "I kinda have to go take care of something."
     mc "I promised Monika I'd help her clean up."
-    s "I could come too."
+    s 3b "I could come too."
     mc "I think she wanted to talk to me about a couple of things, alone."
-    s "Oh..."
-    s "You better get going then."
+    s 1k "Oh..."
+    s 4q "You better get going then."
     s "You don't want to keep either her or I waiting too long."
     "I thank my luck that she's willing to be understanding about all of this."
+    scene bg club_day with wipeleft_scene
     "By the time I get into the club room, Monika is already cleaning everything up."
     "I go up to her."
     play music t5
@@ -1568,45 +1573,49 @@ label ch5_end_harem:
     m "But..."
     "Monika hands me the poem."
     call showpoem (poem_m5, music=True)
-
     "After I finish reading the poem, I can't help but stare."
-    m "How long do you think you can keep this up?"
+    m 1r "How long do you think you can keep this up?"
     mc "What do you mean?"
-    m "Getting four girls to confess to you and keeping them around."
+    m 3m "Getting four girls to confess to you and keeping them around."
     mc "It's not quite like I'm trying to."
     mc "And what do you mean four?"
+    show monika 1s at h11
     "Monika blushes and is clearly frustrated."
     m "Well that's not how I meant to do that, but oh well."
     m "I guess it doesn't really matter does it?"
     mc "Well, I'll be honest I can't answer to your feelings Monika."
-    mc "Because I can't really answer to anyones."
-    m "What do you mean?"
-    m "Isn't this what you wanted?"
+    mc "Because I can't really answer to anyone."
+    m 1c "What do you mean?"
+    m 2d "Isn't this what you wanted?"
     m "For everyone to be happy?"
     m "To be with everyone."
     mc "Well yeah but..."
-    m "Then don't overcomplicate things."
+    m 2b "Then don't overcomplicate things."
     m "Just go with the flow."
     m "It's just like writing."
     mc "In that case, I guess I'll just have to find the answer in time."
-    m "Don't worry, I'll help you as much as I can."
+    m 4k "Don't worry, I'll help you as much as I can."
     m "I'm not going to mess with them though."
     m "I still have that promise to keep."
     mc "Thanks I guess."
-    m "Don't you have someone waiting for you?"
+    m 4b "Don't you have someone waiting for you?"
     mc "Oh right!"
     mc "Thanks"
+    scene bg corridor
+    show sayori 3a at t11
+    with wipeleft_scene
     "I rush off to find Sayori who waited outside for me."
     mc "Thanks for waiting."
-    s "Did you say everything you needed to?"
+    s 3c "Did you say everything you needed to?"
     mc "I think so."
     mc "Hey Sayori"
-    s "Hmm?"
+    s 1b "Hmm?"
     mc "Are you okay with everything going on?"
     mc "I mean like with Monika, Natsuki, and Yuri."
-    s "I think as long as you continue to wake me up."
+    s 4x "I think as long as you continue to wake me up."
     s "That I can manage."
-
+    hide sayori
+    with wipeleft
     "We hear that they're gonna be launching fireworks so we stick around to watch them."
     scene bg firework with wipeleft
     "Sayori and I find a great spot by ourselves to watch them go off."
