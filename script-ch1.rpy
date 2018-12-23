@@ -308,7 +308,7 @@ label ch1_end:
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n 4w "That's not true!"
-    n "She started it!"
+    n "{i}She{/i} started it!"
     n 4e "If she could get over herself and learn to appreciate that {i}simple{/i} writing is more effective..."
     n "Then this wouldn't have happened in the first place!"
     n "What's the point in making your poems all convoluted for no reason?"
@@ -809,10 +809,10 @@ label ch1_end_sayori:
     mc "She might be an airhead, but sometimes it's weirdly suspicious that she knows exactly what she's doing."
     m 5 "I see~"
     m "Take good care of her, okay?"
-    m "I would hate to see her get herself hurt."
+    m "I would hate to see her get herself hurt again."
     mc "That makes two of us..."
     mc "You can count on me."
-    "Monika smiles sweetly at me, causing my stomach to knot."
+    "Monika smiles bitter-sweetly at me, causing my stomach to knot."
     "Such a genuine person really does make a good President, regardless of what she says."
     "If only I could get the chance to talk to her a little more..."
     return
@@ -829,7 +829,7 @@ label ch1_end_monika:
     m 3b "Hey now, be careful with our new member. We don't want to scare him away, do we?"
     show monika at t44
     show natsuki at f42
-    n 1m "Well she started."
+    n 1m "Well {i}she{/i} started it."
     show natsuki at t42
     show monika at f44
     m 3e "Sayori, can you talk to them?"
@@ -924,8 +924,18 @@ label ch1_end_harem:
     mc "You're really talented."
     show yuri 4a at s21
     y "Eh? W-Well..."
+    mc "And Natsuki,"
+    mc "You're right that I liked your poem."
+    show natsuki zorder 3 at f22
+    n "See??"
+    show natsuki zorder 2 at f22
+    mc "Wait!"
     play music t8
-    mc "But Natsuki has a point!"
+    mc "You shouldn't pick a fight just because someone's opinion is different."
+    show natsuki zorder 3 at f22
+    n "That's not what happened at all!"
+    n "Yuri wouldn't even take my poem seriously!"
+    mc "Mm..."
     mc "I think that..."
     show yuri zorder 2 at t21
     "I wrack my brain in an attempt to back myself up."
@@ -957,6 +967,21 @@ label ch1_end_harem:
     mc "It looks like we learned that today."
     mc "Even small criticism can lead to something pretty heated."
     "I glance over my shoulder."
+    mc "And Yuri,"
+    show yuri 4a at s21
+    y "Eh?"
+    mc "You're a seriously talented writer."
+    mc "It's no secret that I was impressed."
+    y "W-Well, that's..."
+    mc "But here's the thing,"
+    mc "No matter how simple or refined someone's writing style is,"
+    mc "They're still putting feelings into it, and it becomes something really personal."
+    mc "That's why Natsuki felt threatened when you said her poem was cute."
+    y 4bb "I..see"
+    y "I didn't notice that I.."
+    y "I-I'm sorry..."
+    y "Uuu..."
+    "I glance over my shoulder"
     show natsuki at t33
     show yuri at t32
     show sayori 4b at l31
@@ -1151,7 +1176,7 @@ label ch1_end_lonely:
     m 3b "Hey now, be careful with our new member. We don't want to scare him away, do we?"
     show monika at t33
     show natsuki at f32
-    n 1m "Well she started."
+    n 1m "Well {i}she{/i} started it."
     show natsuki at t32
     show monika at f33
     m 3e "Sayori, can you talk to them?"

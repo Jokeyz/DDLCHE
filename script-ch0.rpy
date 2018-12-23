@@ -190,9 +190,9 @@ label ch0_main:
     show sayori zorder 2 at t31
     show monika 2a zorder 3 at f32
     m "That's right."
-    m "It's great to see you again, [player]."
+    m "It was about time I saw you again, [player]."
     show monika 5a at hop
-    "Monika smiles sweetly."
+    "Monika smiles bitter-sweetly."
     "We do know each other - well, we rarely talked, but we were in the same class last year."
     "Monika was probably the most popular girl in class - smart, beautiful, athletic."
     "Basically, completely out of my league."
@@ -233,7 +233,7 @@ label ch0_main:
     s 4r "So cuuuute~!"
     show sayori zorder 2 at t31
     show monika zorder 3 at f33
-    m 2b "I had no idea you were so good at baking, Natsuki!"
+    m 2b "Your baking skills continue to impress me Natsuki!"
     show monika zorder 2 at t33
     show natsuki zorder 3 at f32
     n 2d "Ehehe. Well, you know."
@@ -295,7 +295,7 @@ label ch0_main:
     "Something tells me I shouldn't tell Monika that I was practically dragged here by Sayori."
     mc "Well, I haven't joined any clubs yet, and Sayori seemed really happy here, so..."
     m 1j "That's okay! Don't be embarrassed!"
-    m 1b "We'll make sure you feel right at home, okay?"
+    m 1b "I'll make sure you feel right at home, okay?"
     m "As president of the Literature Club, it's my duty to make the club fun and exciting for everyone!"
     show monika 1a
     mc "Monika, I'm surprised."
@@ -384,7 +384,7 @@ label ch0_main:
     show monika 1d zorder 3 at f33
     m "Really? I wouldn't have expected that, Yuri."
     m "For someone as gentle as you..."
-    "I don't think Yuri notices but that last part sounded a little sarcastic."
+    "I don't think Yuri notices, but that last part sounded a little sarcastic."
     show monika zorder 2 at t33
     show yuri zorder 3 at f32
     y 1a "I guess you could say that."
@@ -537,7 +537,7 @@ label ch0_main:
     show natsuki zorder 2 at t44
     show monika zorder 3 at f43
     m 5 "Then that makes it official!"
-    m "Welcome to the Literature Club!"
+    m "Welcome to the Literature Club once again!"
     show monika zorder 2 at t43
     mc "Ah...thanks, I guess."
     show yuri zorder 1 at thide
@@ -552,7 +552,7 @@ label ch0_main:
     m "Everyone remember tonight's assignment:"
     m "Write a poem to bring to the next meeting, so we can all share!"
     "Monika looks over at me once more."
-    m 1a "[player], I look forward to seeing how you express yourself."
+    m 1a "[player], I look forward to seeing how you progress."
     show monika 5 at hop
     m "Ehehe~"
     mc "Y-Yeah..."
