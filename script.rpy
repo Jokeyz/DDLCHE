@@ -1,4 +1,5 @@
 
+
 label start:
 
 
@@ -15,6 +16,7 @@ label start:
     $ m_name = "Girl 3"
     $ n_name = "Girl 2"
     $ y_name = "Girl 1"
+    $ r_name = "Y & N"
 
     $ quick_menu = True
     $ style.say_dialogue = style.normal
@@ -53,7 +55,8 @@ label start:
     call ch5_main
 
     $ chapter = 6
-    call expression "ch6_eps_" + ch4_scene
+    call ch6_main
+    call credit
     
 label endgame(pause_length=4.0):
     $ quick_menu = False
@@ -64,3 +67,4 @@ label endgame(pause_length=4.0):
     pause pause_length
     $ quick_menu = True
     return
+

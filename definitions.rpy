@@ -1511,8 +1511,8 @@ default help_sayori = None
 default help_monika = None
 
 
-default ch4_scene = "yuri"
-default ch4_name = "Yuri"
+default ch4_scene = "lonely"
+default ch4_name = "lonely"
 default sayori_confess = False
 
 
