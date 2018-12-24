@@ -7,19 +7,19 @@ label ch3_main:
     m "I'm the last one here again!"
     mc "Don't worry, I just walked in too."
     show yuri 1f zorder 3 at f32
-    y "Were you practicing piano again?"
+    y "Were you practicing harp again?"
     show yuri zorder 2 at t32
     show monika zorder 3 at f31
     m 1l "Yeah..."
     m "Ahaha..."
     show monika zorder 2 at t31
     show yuri zorder 3 at f32
-    y 1m "You must have a lot of determination."
-    y "Starting this club, and now picking up piano..."
+    y 1m "Doesn't that hurt your fingers? You must be really ambitious"
+    y "Starting this club, and now picking up harp..."
     show yuri 1a zorder 2 at t32
     show monika zorder 3 at f31
-    m 1a "Well, maybe not determination..."
-    m "But I guess passion."
+    m 1a "Well maybe a little. But it's not ambition..."
+    m "But I guess it's more of a catharsis."
     m "Remember that the club wouldn't be here if it wasn't for all of you."
     m 1b "And I'm super happy that you're all willing to help out for the festival, too!"
     show natsuki 1z zorder 3 at f33
@@ -61,7 +61,7 @@ label ch3_main:
     show monika 5b zorder 3 at f31
     m "Eh?!"
     m "That's not how you say my name at all!"
-    m "Also, that joke makes no sense in translation!"
+    m "Also, that joke STILL makes no sense in translation!"
     show monika zorder 2 at t31
     show natsuki zorder 3 at f33
     n 4m "...?"
@@ -120,12 +120,12 @@ label ch3_main:
     mc "Hey, this might sound a little strange, but..."
     mc "Have you noticed anything up with Sayori recently?"
     m 1d "Anything up with her...?"
-    m "In what way do you mean?"
+    m "Oh you must mean?"
     mc "Maybe I'm reading into it a little too much, but she seems a bit downcast today..."
-    m "Oh? You think so?"
-    m "I can't say I've noticed anything about her..."
+    m "Still?"
+    m "I can't say I've noticed anything extra about her..."
     "Monika peers across the room at Sayori, who is idly dragging a rubber eraser up and down her desk."
-    m "Maybe there is something on her mind..."
+    m "Maybe I am going to have to do something..."
     m 2a "But I'm surprised I'm not the one asking you, [player]."
     m "You certainly know her a lot better than I do."
     mc "Yeah, but she's never really like this..."
@@ -135,6 +135,8 @@ label ch3_main:
     mc "I just wanted to ask if you knew anything, so I'll drop it now..."
     m 1g "No, no..."
     m "It's important to me, too."
+    m "It's absolutely partly my problem and maybe even my fault."
+    m "Not to mention that I'm the President after all."
     m 1e "I mean, I'm also friends with her..."
     m "And I also care about the well-being of my club members, you know?"
     m 1i "Maybe I'll try talking to her myself..."
@@ -149,7 +151,7 @@ label ch3_main:
     mc "How on Earth would you come to that conclusion?"
     m 1j "Well..."
     m "I probably shouldn't say too much, but..."
-    m 1a "Sayori talks about you more than anything else, you know?"
+    m 1a "Let's just say I know this matter far better than you do..."
     mc "Eh...?"
     m "She's been so much happier ever since you've joined the club."
     m "It's like an extra light was turned on inside of her."
@@ -159,14 +161,12 @@ label ch3_main:
     mc "She's always been full of sunshine."
     mc "It's not any different now than it always has been."
     m 5 "Ehehe."
-    m "You're so funny, [player]."
+    m "You're so funny, [player]. You still haven't noticed?"
     m "Have you thought that maybe you've always seen her as so cheerful..."
     m "...because that's just how she is when she's around you?"
     mc "..."
-    m 1n "Ah...I said too much."
-    m "I'm sorry...what do I know, anyway?"
-    m 1a "I didn't mean to jump to conclusions, so you should just forget about what I said."
-    m "I'll try to talk to her, so try not to think about it for now."
+    m 1n "Ah...I've said too much."
+    m 1a "I'll try to talk to her, so try not to think about it for now."
     mc "Ah..."
     mc "Alright..."
     "Monika smiles meaningfully."
@@ -427,9 +427,9 @@ label ch3_start_none:
         "I'm clearly not up for all this."
         "Thankfully, I get through the rest of the time without anyone noticing that I didn't share again."
         "..."
-        "Before i knew, Sayori is not in the club anymore."
-        "Where did she gone...?"
-        "Maybe she wasn't feeling too well and went home early"
+        "Before I know it, Sayori is not in the club anymore."
+        "Where did she go...?"
+        "Maybe she wasn't feeling too well and went home early?"
         return
     "I make eye contact with Monika, and she smiles at me."
     "I wonder what she was talking about with Sayori..."
@@ -522,7 +522,9 @@ label ch3_end:
     mc "{i}That curious expression coming from Yuri, of all people??{/i}"
     show monika 1r zorder 3 at f32
     m "Calm down, guys...!"
-    m 1d "I talked to her earlier, and everything is fine."
+    m 1d "I talked to her earlier, and everything is going to be fine."
+    m "I promise..."
+    "Monika makes eye contact with me, reassuringly."
     show monika zorder 2 at t32
     mc "What did she say...?"
     show monika zorder 3 at f32
@@ -556,7 +558,7 @@ label ch3_end:
     show natsuki zorder 2 at t31
     show monika 5 zorder 3 at f32
     m "Guys..."
-    m "Can you help me come up with something for Yuri...?"
+    m "Can you help me remember something for Yuri...?"
     show monika zorder 2 at t32
     show yuri 4c zorder 3 at f33
     y "I..."
@@ -566,6 +568,7 @@ label ch3_end:
     m "N-No!"
     m "That's not it at all!"
     m "You're the most talented person here, you know!"
+    m "I had a plan and everything, I just can't remember it."
     show monika zorder 2 at t32
     show natsuki 5g zorder 3 at f31
     n "..."
@@ -578,7 +581,8 @@ label ch3_end:
     show monika zorder 3 at f32
     m "Ah..."
     m "That may be the case..."
-    m 1i "But if I can't also be a leader on my own, then I won't grow as a person."
+    m 1i "But if I can't do this on my own, then there's no way we'll ever make any headway."
+    "Monika snaps her fingers, having remembered what it was."
     m 2i "So, Yuri...!"
     m 2a "You have beautiful handwriting, you know?"
     m "So you should make some banners and decorations to help set the atmosphere."
@@ -805,7 +809,7 @@ label ch3_end_monika:
     y "But you already have Sayori as well."
     show yuri zorder 2 at t33
     show monika zorder 3 at f32
-    m 1p "But [player] was the one who..."
+    m 1p "But for once they actually..."
     m "Ah..."
     show monika zorder 2 at t32
     show natsuki 3c zorder 3 at f31
@@ -819,7 +823,7 @@ label ch3_end_monika:
     show yuri zorder 2 at t33
     show monika 2i zorder 3 at f32
     m "Ulterior motives?"
-    m "W-What are you saying, Yuri?"
+    m "Are you serious, Yuri?"
     m "In fact, it sounds like you guys are the ones with ulterior motives!"
     show monika zorder 2 at t32
     show natsuki 1x zorder 3 at f31
@@ -860,6 +864,7 @@ label ch3_end_monika:
     m 1g "It's...technically most logical for [player] to help one of you two."
     m "So..."
     m 1c "I guess...that's what we'll do."
+    "Was it just me or does Monika sound more defeated than usual?"
     show monika zorder 2 at t32
     play music t3
     menu:
@@ -1276,7 +1281,7 @@ label ch3_end_harem:
     show monika 3d at f32
     m "So your choice is?"
     show monika 3d at t32
-    mc "Why not we all work together?"
+    mc "Why don't we all work together?"
     show natsuki 5k at f31
     n "Huh?"
     show natsuki at t31
@@ -1500,5 +1505,5 @@ label ch3_end_lonely:
     with wipeleft_scene
     "I worry that I'm not really connecting with anyone."
     "But I'm sure it's nothing."
-    "Besides, there's still time right."
+    "Besides, there's still time, right?"
     return

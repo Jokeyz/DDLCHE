@@ -966,7 +966,7 @@ label ch2_end_harem:
 
 label ch2_end_lonely:
     mc "{size=20}I rather walk home alone...{/size}"
-    "I murmured myself"
+    "I murmur to myself"
     s 1n "Eh?"
     mc "It's nothing."
     s 4h "Ehh..Say it again!"
@@ -975,9 +975,10 @@ label ch2_end_lonely:
 label ch2_end_harem2:
     mc "Jeez..."
     mc "You always seem to really like going home together with the others, right..."
-    mc "So, i wouldn't just ruin that for you."
+    mc "So, I wouldn't just ruin that for you."
     s 1y "You're so silly, [player]..."
-    s "You think it too much sometimes."
+    s "You think about me too much sometimes."
+    s "Both of them would deserve it if they wanted it, so..."
     mc "Sayori, I've already made up my mind."
     mc "I really can't figure you out sometimes..."
     s "Sorry..."
@@ -992,8 +993,8 @@ label ch2_end_harem2:
    
 label ch2_end_lonely2:
     mc "Jeez..."
-    mc "You always seem to really like going home together with me, right..."
-    s 4i "You think it too much."
+    mc "You seem to really like going home together with me, right?"
+    s 4i "You think about it too much."
     mc "Sayori, I've already made up my mind."
     mc "I really can't figure you out sometimes..."
     s 1g "Sorry..."
