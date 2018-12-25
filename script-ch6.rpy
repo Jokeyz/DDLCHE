@@ -1,4 +1,4 @@
-label ch6_main
+label ch6_main:
     "The rest of the year seemed to fly past."
     if ch4_scene == "lonely":
         call ch6_end_lonely
@@ -21,7 +21,7 @@ label ch6_main
     m "I don’t know how to say this but..."
     m "The school has decided that we’re too small of a club to sponsor anymore."
     m "They’re breaking us all up."
-    Yuri and n "Eh?!?"
+    ny "Eh?!?"
     m "I’m sorry, I tried to work things out, but I was afraid I would’ve just made things instead of better."
     "Natsuki: This isn’t fair!"
     n "Now where am I supposed to go after school?"
@@ -58,6 +58,7 @@ label ch6_main
     "I looked at [ch4_scene] and couldn't wait to see what the future would bring."
     call expression "ch6_end_" + ch4_scene
     return
+    
 label ch6_end_monika:
     "Monika never seemed to calm down though."
     "For some reason, she always on edge and worried about everyone else."
@@ -113,7 +114,7 @@ label ch6_end_yuri:
     "Next thing I know, I'm involved with a very successful author."
     "She still worries me when she's holding sharp objects, but she says not to be concerned."
     "She insists that because of me, she's left all of that behind."
-    "We still get the occasional message from Sayori or Natsuki, but these days we just enjoy our quiet life together".
+    "We still get the occasional message from Sayori or Natsuki, but these days we just enjoy our quiet life together."
     return
 label ch6_end_lonely:
     "The rest of the year seemed to fly past."
