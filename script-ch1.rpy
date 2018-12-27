@@ -691,7 +691,7 @@ label ch1_end_yuri:
     y "I-I'm going to go make some tea..."
     mc "Ah, good idea."
     mc "Make enough for more than one person, okay?"
-    y "Y-Yeah."
+    y "Y-Yeah..."
     return
 
 label ch1_end_sayori:
@@ -978,10 +978,10 @@ label ch1_end_harem:
     mc "They're still putting feelings into it, and it becomes something really personal."
     mc "That's why Natsuki felt threatened when you said her poem was cute."
     y 4bb "I..see"
-    y "I didn't notice that I.."
+    y "I didn't notice that I..."
     y "I-I'm sorry..."
     y "Uuu..."
-    "I glance over my shoulder"
+    "I glance over my shoulder."
     show natsuki at t33
     show yuri at t32
     show sayori 4b at l31
@@ -1107,7 +1107,7 @@ label ch1_end_harem:
     mc "Ah, good idea."
     mc "Make enough for more than one person, okay?"
     show yuri 1d at l41
-    y "Y-Yeah"
+    y "Y-Yeah..."
     show yuri at lhide
     hide yuri
     "I pat Sayori on the shoulder."

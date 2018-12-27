@@ -1509,6 +1509,7 @@ default ch1_choice = "sayori"
 
 default help_sayori = None
 default help_monika = None
+default monika_complete = False
 
 
 default ch4_scene = "lonely"

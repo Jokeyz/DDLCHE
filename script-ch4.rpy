@@ -988,7 +988,7 @@ label ch4_exclusive_yuri:
     y 1ba "I see..."
     y "That's relieving."
     "The tension is quickly lifted."
-    if ch4_scene == "monika":
+    if help_monika:
         y 1bf "Hey, I wanted to ask you something."
         mc "What's that?"
         y "Have you noticed something up with Monika lately?"
@@ -1612,7 +1612,7 @@ label ch4_end_no:
     "Sayori looks directly at me."
     mc "Absolutely."
     "Monika apologizes again before we end up leaving."
-    if ch4_scene == "monika":
+    if help_monika:
         scene residential with wipeleft_scene
         "All in all, it was actually really fun."
         "I don't know why I don't try to spend more time with her."
@@ -1643,6 +1643,7 @@ label ch4_end_no:
         "As I lay in bed, I think back to what Yuri and Sayori mentioned."
         "Monika must be really great for all of her club members to worry about her so much."
         "Maybe I'll try to spend some time with her at the festival and make sure everything is okay."
+        $ monika_complete = True
     stop music fadeout 1
     return
     

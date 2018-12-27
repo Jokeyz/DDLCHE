@@ -2391,8 +2391,12 @@ label m_monika_2:
     m "So, good luck"
     mc "Thanks"
     return
+    
+label m_monika_3:
+    return
+
 label m_lonely_1:
-    mc "How it is?"
+    mc "How is it?"
     m 2l "Uhm..."
     mc "What?"
     m "You know..."

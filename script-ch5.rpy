@@ -35,7 +35,7 @@ label ch5_main:
     m "Thanks for being early!"
     mc "That's funny, I thought at least Yuri would be here by now."
     "Monika is placing little booklets on each of the desks in the classroom."
-    if ch4_scene == "monika":
+    if monika_complete:
         "They must be the ones we prepared that has all the poems we're performing."
     else:
         "They must be the ones she prepared that has all the poems we're performing."
@@ -60,7 +60,7 @@ label ch5_main:
     m "You shouldn't worry about her so much."
     m "I told you that I would make sure that she's fine."
     m "It's kinda hurtful that you'd think I'd go back on my word."
-    if ch4_scene == "monika":
+    if monika_complete:
         jump ch5_end_monika
         return
     if ch4_scene == "lonely":

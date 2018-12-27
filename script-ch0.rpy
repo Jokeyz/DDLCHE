@@ -324,7 +324,7 @@ label ch0_main:
     m "Not to mention keep it going with what's happened..."
     m "Especially when it's something that doesn't grab your attention, like literature."
     m "You have to work hard to convince people that you're both fun and worthwhile."
-    m "Even then, sometimes you can'tt convince some people."
+    m "Even then, sometimes you can't convince some people."
     m "But it makes school events, like the festival, that much more important."
     m 2k "I'm confident that we can all really grow this club before we graduate!"
     m "Right, everyone?"
