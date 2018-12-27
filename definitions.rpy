@@ -1266,7 +1266,7 @@ image monika 1z = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0)
 image monika 2z = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
 image monika 3z = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/a.png")
 image monika 4z = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
-image monika 5z = im.Composite((960, 960), (0, 0), "monika/3ab.png")
+image monika 5z = im.Composite((960, 960), (0, 0), "mods/monika/3ab.png")
 
 image monika 1ba = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/a.png")
 image monika 1bb = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/b.png")
@@ -1288,7 +1288,7 @@ image monika 1bq = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0
 image monika 1br = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/r.png")
 image monika 1bs = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/embarrassing.png")
 image monika 1bt = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cry.png")
-image monika 1bu = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cr1.png")
+image monika 1bu = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cry1.png")
 
 image monika 2ba = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
 image monika 2bb = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/b.png")
