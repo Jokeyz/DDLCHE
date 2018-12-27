@@ -429,20 +429,18 @@ It just stops moving."""
     author = "monika",
     title = "Hole in Wall",
     text = """\
-It couldn't have been me.
-See, the direction the spackle protrudes.
-A noisy neighbor? An angry boyfriend? I'll never know. I wasn't home.
-I peer inside for a clue.
-No! I can't see. I reel, blind, like a film left out in the sun.
-But it's too late. My retinas.
-Already scorched with a permanent copy of the meaningless image.
-It's just a little hole. It wasn't too bright.
-It was too deep.
-Stretching forever into everything.
-A hole of infinite choices.
-I realize now, that I wasn't looking in.
-I was looking out.
-And he, on the other side, was looking in."""
+It would never be me.
+The accidental ink stain in an otherwise perfect.
+I throw away the pen that leaked everywhere.
+From memory I repaint the entire picture.
+Taking note of the colors that are no longer vibrant to me.
+I lay aside everything, taking care not to disturb the picture once more.
+I look at the hole once more with my already burned eyes.
+I sigh and give back to it the picture I stole.
+It covers the hole and stops others from peering through.
+Eyes shall burn no more.
+But not I know that he's there.
+I must return to him, what I stole away."""
     )
 
     poem_m21 = Poem(
@@ -487,7 +485,34 @@ Sine, cosine, tangent
 An endless
 poem
 Of meaningless\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-Load Me
+Choose Her
+    """
+    )
+
+    poem_23 = Poem(
+    author = "monika",
+    title = "Save Me",
+    text = """\
+The colors, they won't stop.
+Bright, beautiful colors
+Flashing, expanding, piercing
+Red, green, blue
+An endless
+cacophany
+Of meaningless
+noise
+
+
+The noise, it won't stop.
+Violent, grating waveforms
+Squeaking, screeching, piercing
+Sine, cosine, tangent
+    Like playing a chalkboard on a turntable
+        Like playing a vinyl on a pizza crust
+An endless
+poem
+Of meaningless\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+Do something
     """
     )
 

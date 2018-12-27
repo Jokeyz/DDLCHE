@@ -595,6 +595,7 @@ label ch3_s_end:
     return
 
 label ch1_m_end:
+    "I hand her my poem as she passes me hers. She reads mine so fast that I haven't even looked at hers yet."
     call showpoem (poem_m1) 
 label ch1_m_end2:
     m 1a "So...what do you think?"
@@ -612,7 +613,7 @@ label ch1_m_end2:
     mc "An epiphany?"
     m 1a "Yeah...something like that."
     m "I'm kind of nervous to talk about deep stuff like that, because it's kind of coming on strongly..."
-    m "Maybe after everyone is better friends with each other."
+    m "Maybe after everyone feels safer with each other."
     m 1j "Anyway..."
     m 3b "Here's Monika's Writing Tip of the Day!"
     m "Sometimes when you're writing a poem - or a story - your brain gets too fixated on a specific point..."
@@ -626,7 +627,14 @@ label ch1_m_end2:
     return
 
 label ch2_m_end:
-    call showpoem (poem_m2) 
+    "I resolve myself to at least share my poem with Monika."
+    "I turn to Monika and put out my hand, waiting for her poem."
+    "She sighs and hands one over while taking mine."
+    "Once again, she reads mine in an instant with barely a glance."
+    if l_poemappeal[0] >= 0 and l_poemappeal[1] >= 0:
+        call showpoem (poem_m23)
+    else:
+        call showpoem (poem_m2) 
     mc "Hm..."
     mc "It's even more abstract than your last one, huh?"
     m 5 "Ahaha..."
@@ -648,45 +656,27 @@ label ch2_m_end:
     m "Anyway..."
     m 3b "Here's Monika's Writing Tip of the Day!"
     m "Sometimes you'll find yourself facing a difficult decision..."
-    m "When that happens, don't forget to save your game!"
-    m "You never know when you might change your mind..."
-    m "...or when something unexpected may happen!"
-    m 3d "Wait...is this tip even about writing?"
-    m 3k "What am I even talking about?"
+    m 3c "..."
+    m 3d "..."
+    m 3o "..."
+    m 3q "..."
+    m 3r "Think it over carefully."
+    m 3f "You never want to take things too far."
+    m 3o "You have no idea what you may end up getting yourself in."
+    m 3l "Wait...is this tip even about writing?"
+    m 3n "What am I even talking about?"
     m "Ahaha!"
-    m 3b "...That's my advice for today!"
+    m 3q "...That's my advice for today!"
     m "Thanks for listening~"
     return
 label ch3_m_end:
     call showpoem (poem_m3) 
-    m 1a "You know..."
-    m "I feel like learning and looking for answers are the sorts of things that give life meaning."
-    m 1e "Not to get too philosophical or anything..."
-    m 1a "But it was kind of on my mind, so that's what I wrote about."
-    mc "I see..."
-    mc "I never really put much thought into it."
-    m 1d "In a way, it's almost paradoxical."
-    m "Because if we had all the answers, wouldn't the world start to lose its meaning?"
-    mc "You know, there's one thing I noticed..."
-    mc "It seems like everyone in the club prefers writing about things that are more sad than happy."
-    m 1k "Ahaha. Are you surprised?"
-    m 1a "I mean, if everything was okay..."
-    m "We wouldn't really have anything to write about, would we?"
-    m "Humans aren't two-dimensional creatures."
-    m "I think you'd know that better than anyone."
-    mc "You mean one-dimensional...?"
-    m 1l "Ah...yeah, that!"
-    m 1a "Anyway..."
-    m 3b "Here's Monika's Writing Tip of the Day!"
-    m "Are you ever too shy to share your writing because you're afraid it's not that good?"
-    m "It can be really disheartening to get a lukewarm response to something you put so much into."
-    m "But if you find other people who enjoy writing, then sharing becomes a lot easier!"
-    m "Because instead of just telling you that your writing is good, or okay, or bad..."
-    m "They'll want to focus more on everything that went into it, and the things you can work on."
-    m "It's much more encouraging that way, and it will make you want to continue improving."
-    m "It's almost like having your own little Literature Club, don't you think?"
-    m 3k "...That's my advice for today!"
-    m "Thanks for listening~"
+    hide monika
+    "Before I can even respond, Monika has turned away."
+    "It's like she doesn't even bother to read my poems."
+    "As if she knows everything I am going to say."
+    "And that she doesn't want to hear a word of it."
+    "She's already strided away before I can speak up."
     return
 
 

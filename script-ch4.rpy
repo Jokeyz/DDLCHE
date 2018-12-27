@@ -114,7 +114,10 @@ label ch4_main:
     s 4bb "Of course!"
     s "But I'm just helping her online."
     s "We didn't plan to meet up or anything."
-    mc "Ah, so it's just me and [ch4_name], then..."
+    if ch4_scene == "harem":
+        mc "Ah, so it's just me, Natsuki, and Yuri, then..."
+    else:
+        mc "Ah, so it's just me and [ch4_name], then..."    
     s 1ba "Yep~"
     "There's more silence between us."
     show sayori 1bk
