@@ -16,23 +16,7 @@ label sayori_exclusive_1:
     show monika 2r zorder 3 at f22
     m "Hmm..."
     m 2b "Well, we can't give up."
-    m "The festival is our chance to show everyone what literature is all about!"
-    m 2d "The problem is that the idea of a literature club sounds too dense and intellectual..."
-    m "But it's not like that at all, you know?"
-    m 2a "We just need a way of showing that to everyone..."
-    m "Something that speaks to their creative minds."
-    show monika zorder 2 at t22
-    show sayori zorder 3 at f21
-    s 1i "Mmmmmmmmmmm....."
-    s "That doesn't solve the problem, though!"
-    show sayori zorder 2 at t21
-    show monika zorder 3 at f22
-    m 2d "Eh? What do you mean?"
-    show monika zorder 2 at t22
-    show sayori zorder 3 at f21
-    s 1c "Even if we come up with the most fun thing ever..."
-    s "Nobody will come in the first place if it's a literature event."
-    s "So it's more important to figure out how to get people to show up in the first place, you know?"
+    m "The festival is our chance to show everyso get people to show up in the first place, you know?"
     s 1a "And after they come, we can do the thing to speak to their creative minds."
     "...What's this?"
     "Sayori is taking this really seriously."
@@ -571,4 +555,4 @@ label sayori_exclusive_2:
     mc "Guess I should grab mine..."
     "After making sure the crayon box is closed tightly, I return to my seat."
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+
