@@ -1479,13 +1479,13 @@ label ch3_end_lonely:
     y "Ah..."
     y 2j "I...suppose I wouldn't mind a bit of help..."
     show yuri zorder 2 at t33
-    show natsuki 4b zoder 3 at f31
+    show natsuki 4b zorder 3 at f31
     n "I can help you with that Yuri."
     n 3d "And even if you don't know how to bake, there's always some dirty work I could give to you."
-    show natsuki 3d zoder 2 at t31
-    show yuri 1f zoder 3 at f33
+    show natsuki 3d zorder 2 at t31
+    show yuri 1f zorder 3 at f33
     y "Really?"
-    show yuri 1f zoder 1 at t33
+    show yuri 1f zorder 1 at t33
     show monika 2k zorder 3 at f32
     m 2b "I hope to see everyone do their best."
     m "But with that..."
