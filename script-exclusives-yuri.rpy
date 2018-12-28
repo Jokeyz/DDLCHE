@@ -474,7 +474,7 @@ label yuri_exclusive_2_ch3:
     mc "Are you sure...?"
     y "Of course."
     $ persistent.clear[3] = True
-    scene y_cg2_bg
+    scene y_cg2_bg1
     show y_cg2_base
     show y_cg2_details
     show y_cg2_nochoc
@@ -577,4 +577,3 @@ label yuri_exclusive_2_ch3:
     "In the end, we hastily clean up without so much as a word between us."
     "I get the feeling this is something neither of us will have the courage to bring up..."
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
