@@ -632,4 +632,3 @@ label credits2:
         $ pause()
         call screen dialog(message="Thanks for Playing this game!", ok_action=Quit(confirm=False))
         return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
