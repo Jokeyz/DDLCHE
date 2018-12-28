@@ -460,4 +460,3 @@ init python:
         
         
         gui.quick_button_text_size = 20
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
