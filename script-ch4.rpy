@@ -330,9 +330,11 @@ label ch4_main:
     "I think Sayori is right."
     "I shouldn't be worrying too much, and we're definitely going to have a great time tomorrow."
     "I should just focus on what's ahead of me!"
-    call expression "ch4_exclusive_" + ch4_scene
+    if not ch4_scene == "sayori" and not ch4_scene == "monika":
+        call expression "ch4_exclusive_" + ch4_scene
+    else:
+        call ch4_exclusive_yuri
     call ch4_end
-
     return
 
 
