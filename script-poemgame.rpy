@@ -181,8 +181,8 @@ label poem(transition=True):
     $ config.allow_skipping = False
     $ allow_skipping = False
     if persistent.playthrough == 0 and chapter == 0:
-        call screen dialog("~Let me explain~\nThere are 3 new route now you can explore:\n\nMonika | Harem | Lonely \n\nRoute", ok_action=Return())
-        call screen dialog("By the way,\nIf you pick words that not makes any\nChibi's jump(not hop-skip),\n\nWhich mean,\nYou picked words for the Lonely Route.\nSame as Harem Route, but Opposite.", ok_action=Return())
+        call screen dialog("~Let me explain~\nThere are 3 new routes now that you can explore:\n\nMonika | Harem | Lonely", ok_action=Return())
+        call screen dialog("By the way,\nif you any pick words that do not make any\nChibi's jump(not hop-skip),\n\nit means,\nyou picked words for the Lonely Route.\nConversely if they jump, then it's for the Harem Route.", ok_action=Return())
         call screen dialog("It's time to write a poem!\n\nPick words you think your favorite club member\nwill like. Something good might happen with\nwhoever likes your poem the most!\n\nLets get started then\nGood Luck!", ok_action=Return())
     python:
         poemgame_glitch = False
