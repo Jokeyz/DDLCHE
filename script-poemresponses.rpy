@@ -2362,34 +2362,11 @@ label ch3_m_start:
 
 ####
 label m_monika_1:
-    mc "How it is?"
-    m 2l "Uhm..."
-    mc "What?"
-    m "You know..."
-    m 2m "It's a bit embarrassing to read all of this"
-    mc "Eh?"
-    m 4l "I-I don't mean in bad way and i really really like it!"
-    mc "Really?"
-    m 2e "Yeah"
-    mc "Well..."
-    m 2b "You can try hard next time."
-    m "So, good luck"
-    mc "Thanks"
+    "I hand her my poem as she passes me hers. She reads mine so fast that I haven't even looked at hers yet."
     return
 label m_monika_2:
-    mc "How it is?"
-    m 2l "Uhm..."
-    mc "What?"
-    m "You know..."
-    m 2m "It's a bit embarrassing to read all of this"
-    mc "Eh?"
-    m 4l "I-I don't mean in bad way and i really really like it!"
-    mc "Really?"
-    m 2e "Yeah"
-    mc "Well..."
-    m 2b "You can try hard next time."
-    m "So, good luck"
-    mc "Thanks"
+    "She sighs and hands one over while taking mine."
+    "Once again, she reads it in an instant."
     return
     
 label m_monika_3:
@@ -2402,7 +2379,7 @@ label m_lonely_1:
     m "You know..."
     m 2m "It's a bit embarrassing to read all of this"
     mc "Eh?"
-    m 4l "I-I don't mean in bad way and i really really like it!"
+    m 4l "I-I don't mean in bad way and I really really like it!"
     mc "Really?"
     m 2e "Yeah"
     mc "Well..."

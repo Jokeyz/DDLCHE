@@ -7,7 +7,7 @@ label ch6_main:
     "I loved spending time with everyone so much."
     "I was amazed at how similar Natsuki and Yuri seemed to be once they got past their differences."
     "It wasn't long until those two ended up being best friends."
-    if ch4_scene == "monika":
+    if monika_complete:
         call ch6_end_monika
         return
     "The club really has pulled everyone together and made them better."
@@ -23,7 +23,7 @@ label ch6_main:
     m "They’re breaking us all up."
     ny "Eh?!?"
     m "I’m sorry, I tried to work things out, but I was afraid I would’ve just made things instead of better."
-    "Natsuki: This isn’t fair!"
+    n "This isn’t fair!"
     n "Now where am I supposed to go after school?"
     y "It is rather unfortunate that we’ll lose our meeting place and time."
     s "But that doesn’t mean it has to end."
