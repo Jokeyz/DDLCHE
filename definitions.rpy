@@ -125,6 +125,7 @@ image bg kitchen = "bg/kitchen.png"
 image mhouse = "mods/BCG/house2.png"
 image groom = "mods/BCG/groom.png"
 image nhouse = "mods/BCG/nhouse.png"
+image residential_evening = "mods/BCG/residential_evening.png"
 
 image bg notebook = "bg/notebook.png"
 image bg notebook-glitch = "bg/notebook-glitch.png"
