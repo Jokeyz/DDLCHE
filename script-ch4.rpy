@@ -1473,7 +1473,6 @@ label ch4_end_no:
     s "You really do know me better than anyone, [player]."
     s 4bv "I'll trust you with anything..."
     s "Anything at all..."
-    #####Start#####
     s "So..."
     s "I'm sorry."
     s 4bd "Let's just be friends then..."
@@ -1490,7 +1489,7 @@ label ch4_end_no:
     mc "Um well..."
     mc "Sure"
     stop music fadeout 1
-    scene residential with wipeleft_scene
+    scene residential_evening with wipeleft_scene
     play music t2
     "Why do I suddenly feel nervous about visiting Monika?"
     "Sayori starts to lead the way there."
