@@ -1614,7 +1614,7 @@ label ch4_end_no:
     mc "Absolutely."
     "Monika apologizes again before we end up leaving."
     if help_monika:
-        scene residential with wipeleft_scene
+        scene residential_evening with wipeleft_scene
         "All in all, it was actually really fun."
         "I don't know why I don't try to spend more time with her."
         show sayori 3bb at t11

@@ -208,7 +208,7 @@ label ch3_main:
 
 label ch3_start_monika:
     if not m_exclusivewatched and poemwinner[2] == "monika":
-        call monika_exclusive_ch3
+        call monika_exclusive_2
     else:
         jump ch3_start_none
     return

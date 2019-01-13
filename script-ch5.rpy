@@ -308,11 +308,13 @@ label ch5_end_monika:
     mc "Especially me."
     show monika 1d
     "Monika looks at me with pure confusion"
+    stop music fadeout 2.0
     show monika 1o
     "Then she looks down at the ground"
     m 1p "If anything"
     m "I'm just becoming like them."
     mc "And that's the problem."
+    play music "bgm/monika-end.ogg"    
     mc "We don't want you to be them."
     mc "We want you to be you Monika."
     mc "I think you're an absolutely amazing person."
