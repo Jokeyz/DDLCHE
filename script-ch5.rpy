@@ -41,8 +41,12 @@ label ch5_main:
         "They must be the ones she prepared that has all the poems we're performing."
     if ch4_scene == "natsuki":
         "In the end, I found a random poem online that I thought Natsuki would like, and submitted it."
+    elif ch4_scene ==  "yuri":
+        "In the end, I found a random poem online that I thought Yuri would like, and submitted it."
+    elif ch4_scene ==  "sayori":
+        "In the end, I found a random poem online that I thought Sayori would like, and submitted it."
     else:
-        "In the end, I found a random poem online that I thought Monika would like, and submitted it."
+        "In the end, I found a random poem online that I thought Yuri would like, and submitted it."
     "So, that's the one I'll be performing."
     m 1d "I'm surprised you didn't bring Sayori with you."
     mc "Yeah, she overslept again..."

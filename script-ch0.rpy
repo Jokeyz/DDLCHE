@@ -4,10 +4,6 @@ label ch0_main:
     with dissolve_scene_full
     play music t2
 
-    python:
-        try: renpy.file("../characters/monika.chr")
-        except: renpy.jump("ch0_kill")
-
     $ restore_all_characters()
     s "Heeeeeeeyyy!!"
     "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
@@ -307,7 +303,7 @@ label ch0_main:
     m "It feels like nothing but arguing about the budget and publicity and how to prepare for events..."
     m "I'd much rather take something I personally enjoy and make something special out of it."
     m "Even if that something special comes at a high cost."
-    m 1b "Beside if it encourages others to get into literature, then I'm fulfilling that dream!"
+    m 1b "Besides if it encourages others to get into literature, then I'm fulfilling that dream!"
     show monika 1a
     show sayori 3q zorder 2 at t31
     s "Monika really is a great leader!"
@@ -592,29 +588,3 @@ label ch0_main:
     "And I guess that starts with writing a poem tonight..."
 
     return
-
-label ch0_kill:
-    $ s_name = "Sayori"
-    show sayori 1b zorder 2 at t11
-    s "..."
-    s "..."
-    s "W-What..."
-    s 1g "..."
-    s "This..."
-    s "What is this...?"
-    s "Oh no..."
-    s 1u "No..."
-    s "This can't be it."
-    s "This can't be all there is."
-    s 4w "What is this?"
-    s "What am I?"
-    s "Make it stop!"
-    s "PLEASE MAKE IT STOP!"
-
-    $ delete_character("sayori")
-    $ delete_character("natsuki")
-    $ delete_character("yuri")
-    $ delete_character("monika")
-    $ renpy.quit()
-    return
-

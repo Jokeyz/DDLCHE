@@ -753,7 +753,6 @@ label ch4_exclusive_natsuki:
 label ch4_exclusive_yuri:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
-#Changed
     show yuri 2bq zorder 2 at t11
     "Before I know it, Yuri texts me to let me know she's outside the front door."
     "Without delay, I open the front door to let her in."
@@ -1113,6 +1112,7 @@ label ch4_exclusive_yuri:
     "I rush out and fetch a small towel, then I dampen it with hot water."
     "I return to my room and kneel back down in front of her."
     scene y_cg3_base with dissolve_cg
+    $ persistent.clear[5] = True
     mc "Here..."
     "I pat down Yuri's face and neck with the towel."
     show y_cg3_exp1 at cgfade
@@ -2035,6 +2035,7 @@ label ch4_exclusive_harem:
     hide yuri
     "I rush out and fetch a small towel, then I dampen it with hot water."
     "I return to my room and kneel back down in front of her."
+    $ persistent.clear[5] = True
     scene y_cg3_base with dissolve_cg
     mc "Here..."
     "I pat down Yuri's face and neck with the towel."
@@ -2601,6 +2602,8 @@ label ch4_exclusive_harem:
     mc "With you by my side..."
     mc "Until one day when I can finally give you your answer."
     scene s_cg3 with dissolve_cg
+    $ persistent.clear[8] = True
+    $ ch4_scene = "sayori"
     "Suddenly, Sayori wraps her arms tightly around me."
     s "[player]..."
     s "Is this...really okay?"

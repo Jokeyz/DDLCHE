@@ -56,7 +56,7 @@ label start:
 
     $ chapter = 6
     call ch6_main
-    call credit
+    jump credits
     
 label endgame(pause_length=4.0):
     $ quick_menu = False

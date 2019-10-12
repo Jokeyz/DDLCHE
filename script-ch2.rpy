@@ -965,7 +965,7 @@ label ch2_end_harem:
     jump ch2_end_harem2
 
 label ch2_end_lonely:
-    mc "{size=20}I rather walk home alone...{/size}"
+    mc "{size=20}I'd rather walk home alone...{/size}"
     "I murmur to myself"
     s 1n "Eh?"
     mc "It's nothing."

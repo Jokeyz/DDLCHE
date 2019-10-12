@@ -201,7 +201,7 @@ init python:
     build.archive("audio", "all")
     build.archive("fonts", "all")
     build.archive("mods", "all")
-    build.classify("game/mods/**.**", "mods")
+    build.classify("game/Mods/**.**", "mods")
 
     build.classify("game/**.jpg", "images")
     build.classify("game/**.png", "images")

@@ -19,7 +19,7 @@ init python:
 
 
     full_wordlist = []
-    with renpy.file('poemwords.txt') as wordfile:
+    with renpy.file('DDLCHEModwords.txt') as wordfile:
         for line in wordfile:
             
             line = line.strip()
@@ -167,6 +167,8 @@ init python:
 
 
 label poem(transition=True):
+    if chapter>2:
+        return
     stop music fadeout 2.0
     scene bg notebook
     show screen quick_menu

@@ -60,6 +60,7 @@ label ch6_main:
     return
     
 label ch6_end_monika:
+    $ monika_save = True
     "Monika never seemed to calm down though."
     "For some reason, she always on edge and worried about everyone else."
     "I think she and Sayori had more in common than either imagined."
@@ -78,6 +79,7 @@ label ch6_end_monika:
     "Besides, I don't think any of us would have survived that year without each other."
     return
 label ch6_end_sayori:
+    $ monika_save = False
     "It took a while for things with Sayori to get better."
     "Depression isn't a battle won in day."
     "It's a war that can often take a life time."
@@ -91,6 +93,7 @@ label ch6_end_sayori:
     "Every one of her smiles feels just like the one that night of the festival."
     return
 label ch6_end_natsuki:
+    $ monika_save = False
     "It took some arranging but we managed to get her out of her house after we graduated."
     "Then when I left to go to university, she came with me."
     "She found a job at a nearby bakery and started working there immediately."
@@ -105,6 +108,7 @@ label ch6_end_natsuki:
     "Things are still strained, but it seems like she's happy still being connected to everyone."
     return
 label ch6_end_yuri:
+    $ monika_save = False
     "I still don't know why Yuri chose to go to university with me."
     "She got into much better places."
     "She always said that the best place was with me, though."
@@ -117,6 +121,7 @@ label ch6_end_yuri:
     "We still get the occasional message from Sayori or Natsuki, but these days we just enjoy our quiet life together."
     return
 label ch6_end_lonely:
+    $ monika_save = False
     "The rest of the year seemed to fly past."
     "Things didn't really improve."
     "I guess Monika was right."
@@ -133,6 +138,7 @@ label ch6_end_lonely:
     "I guess I went my seperate way and they went theirs."
     return
 label ch6_end_harem:
+    $ monika_save = True
     "We became closer than ever."
     "There were times were it felt stressful because the girls were all vying for my attention."
     "I was always careful to never say the word {i}harem{/i} around them, but it's certainly how it felt."

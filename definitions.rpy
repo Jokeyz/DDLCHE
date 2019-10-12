@@ -59,7 +59,7 @@ define audio.t7a = "<loop 4.316 to 12.453>bgm/7.ogg"
 define audio.t8 = "<loop 9.938>bgm/8.ogg"
 define audio.t9 = "<loop 3.172>bgm/9.ogg"
 define audio.t10 = "<loop 5.861>bgm/10.ogg"
-define audio.firework = "mods/fireworks/firework.mp3"
+define audio.firework = "mods/DDLCHE/fireworks/firework.mp3"
 
 
 define audio.closet_open = "sfx/closet-open.ogg"
@@ -94,26 +94,26 @@ image bg club_day2:
     choice:
         "bg/club-skill.png"
 
-image bg firework = "mods/fireworks/1.png"
+image bg firework = "mods/DDLCHE/fireworks/1.png"
 
 image bg fireworks:
     choice:
-        "mods/fireworks/1.png" with Dissolve(1, alpha=True)
+        "mods/DDLCHE/fireworks/1.png" with Dissolve(1, alpha=True)
         pause 1.5
     choice:
-        "mods/fireworks/2.png" with Dissolve(1, alpha=True)
+        "mods/DDLCHE/fireworks/2.png" with Dissolve(1, alpha=True)
         pause 1.5
     choice:
-        "mods/fireworks/3.png" with Dissolve(1, alpha=True)
+        "mods/DDLCHE/fireworks/3.png" with Dissolve(1, alpha=True)
         pause 1.5
     choice:
-        "mods/fireworks/4.png" with Dissolve(1, alpha=True)
+        "mods/DDLCHE/fireworks/4.png" with Dissolve(1, alpha=True)
         pause 1.5
     choice:
-        "mods/fireworks/5.png" with Dissolve(1, alpha=True)
+        "mods/DDLCHE/fireworks/5.png" with Dissolve(1, alpha=True)
         pause 1.5
     choice:
-        "mods/fireworks/6.png" with Dissolve(1, alpha=True)
+        "mods/DDLCHE/fireworks/6.png" with Dissolve(1, alpha=True)
         pause 1.5
     repeat
         
@@ -122,10 +122,10 @@ image bg bedroom = "bg/bedroom.png"
 image bg sayori_bedroom = "bg/sayori_bedroom.png"
 image bg house = "bg/house.png"
 image bg kitchen = "bg/kitchen.png"
-image mhouse = "mods/BCG/house2.png"
-image groom = "mods/BCG/groom.png"
-image nhouse = "mods/BCG/nhouse.png"
-image residential_evening = "mods/BCG/residential_evening.png"
+image mhouse = "mods/DDLCHE/BCG/house2.png"
+image groom = "mods/DDLCHE/BCG/groom.png"
+image nhouse = "mods/DDLCHE/BCG/nhouse.png"
+image residential_evening = "mods/DDLCHE/BCG/residential_evening.png"
 
 image bg notebook = "bg/notebook.png"
 image bg notebook-glitch = "bg/notebook-glitch.png"
@@ -1046,13 +1046,13 @@ image yuri 4bc = im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), "yuri/3
 image yuri 4bd = im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png")
 image yuri 4be = im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png")
 
-image ycg2 = "mods/y_cg1_base2.png"
-image yuri cuts2 = "mods/cuts2.png"
-image yuri cuts3 = "mods/cuts3.png"
+image ycg2 = "mods/DDLCHE/y_cg1_base2.png"
+image yuri cuts2 = "mods/DDLCHE/cuts2.png"
+image yuri cuts3 = "mods/DDLCHE/cuts3.png"
 image classet:
-    "mods/BCG/classsunset.png"
-image mrd = "mods/bcg/mrd.png"
-image scg2 = "mods/s_cg4.png"
+    "mods/DDLCHE/BCG/classsunset.png"
+image mrd = "mods/DDLCHE/bcg/mrd.png"
+image scg2 = "mods/DDLCHE/s_cg4.png"
 
 image y_glitch_head:
     "images/yuri/za.png"
@@ -1189,10 +1189,10 @@ image monika 1o = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "mon
 image monika 1p = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/p.png")
 image monika 1q = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/q.png")
 image monika 1r = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/r.png")
-image monika 1s = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 1t = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/cry.png")
-image monika 1u = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/cry1.png")
-image monika 1v = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/cry3.png")
+image monika 1s = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 1t = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 1u = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
+image monika 1v = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/cry3.png")
 
 image monika 2a = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
 image monika 2b = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/b.png")
@@ -1212,9 +1212,9 @@ image monika 2o = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "mon
 image monika 2p = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/p.png")
 image monika 2q = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/q.png")
 image monika 2r = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/r.png")
-image monika 2s = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 2t = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "mods/monika/cry.png")
-image monika 2u = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "mods/monika/cry1.png")
+image monika 2s = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 2t = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 2u = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
 image monika 3a = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
 image monika 3b = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/b.png")
@@ -1234,9 +1234,9 @@ image monika 3o = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "mon
 image monika 3p = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/p.png")
 image monika 3q = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/q.png")
 image monika 3r = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/r.png")
-image monika 3s = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 3t = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/cry.png")
-image monika 3u = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "mods/monika/cry1.png")
+image monika 3s = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 3t = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 3u = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
 image monika 4a = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
 image monika 4b = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/b.png")
@@ -1256,111 +1256,111 @@ image monika 4o = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "mon
 image monika 4p = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/p.png")
 image monika 4q = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/q.png")
 image monika 4r = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/r.png")
-image monika 4s = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 4t = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "mods/monika/cry.png")
-image monika 4u = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "mods/monika/cry1.png")
+image monika 4s = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 4t = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 4u = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
 image monika 5a = im.Composite((960, 960), (0, 0), "monika/3a.png")
 image monika 5b = im.Composite((960, 960), (0, 0), "monika/3b.png")
 
-image monika 1z = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/a.png")
-image monika 2z = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
-image monika 3z = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/a.png")
-image monika 4z = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
-image monika 5z = im.Composite((960, 960), (0, 0), "mods/monika/3ab.png")
+image monika 1z = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/a.png")
+image monika 2z = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/a.png")
+image monika 3z = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/a.png")
+image monika 4z = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/a.png")
+image monika 5z = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/3ab.png")
 
-image monika 1ba = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/a.png")
-image monika 1bb = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/b.png")
-image monika 1bc = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/c.png")
-image monika 1bd = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/d.png")
-image monika 1be = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/e.png")
-image monika 1bf = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/f.png")
-image monika 1bg = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/g.png")
-image monika 1bh = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/h.png")
-image monika 1bi = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/i.png")
-image monika 1bj = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/j.png")
-image monika 1bk = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/k.png")
-image monika 1bl = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/l.png")
-image monika 1bm = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/m.png")
-image monika 1bn = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/n.png")
-image monika 1bo = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/o.png")
-image monika 1bp = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/p.png")
-image monika 1bq = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/q.png")
-image monika 1br = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/r.png")
-image monika 1bs = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 1bt = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cry.png")
-image monika 1bu = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cry1.png")
+image monika 1ba = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/a.png")
+image monika 1bb = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/b.png")
+image monika 1bc = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/c.png")
+image monika 1bd = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/d.png")
+image monika 1be = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/e.png")
+image monika 1bf = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/f.png")
+image monika 1bg = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/g.png")
+image monika 1bh = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/h.png")
+image monika 1bi = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/i.png")
+image monika 1bj = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/j.png")
+image monika 1bk = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/k.png")
+image monika 1bl = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/l.png")
+image monika 1bm = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/m.png")
+image monika 1bn = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/n.png")
+image monika 1bo = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/o.png")
+image monika 1bp = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/p.png")
+image monika 1bq = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/q.png")
+image monika 1br = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/r.png")
+image monika 1bs = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 1bt = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 1bu = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
-image monika 2ba = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
-image monika 2bb = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/b.png")
-image monika 2bc = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/c.png")
-image monika 2bd = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/d.png")
-image monika 2be = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/e.png")
-image monika 2bf = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/f.png")
-image monika 2bg = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/g.png")
-image monika 2bh = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/h.png")
-image monika 2bi = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/i.png")
-image monika 2bj = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/j.png")
-image monika 2bk = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/k.png")
-image monika 2bl = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/l.png")
-image monika 2bm = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/m.png")
-image monika 2bn = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/n.png")
-image monika 2bo = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/o.png")
-image monika 2bp = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/p.png")
-image monika 2bq = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/q.png")
-image monika 2br = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/r.png")
-image monika 2bs = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 2bt = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "mods/monika/cry.png")
-image monika 2bu = im.Composite((960, 960), (0, 0), "mods/monika/1lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "mods/monika/cry1.png")
+image monika 2ba = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/a.png")
+image monika 2bb = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/b.png")
+image monika 2bc = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/c.png")
+image monika 2bd = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/d.png")
+image monika 2be = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/e.png")
+image monika 2bf = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/f.png")
+image monika 2bg = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/g.png")
+image monika 2bh = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/h.png")
+image monika 2bi = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/i.png")
+image monika 2bj = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/j.png")
+image monika 2bk = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/k.png")
+image monika 2bl = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/l.png")
+image monika 2bm = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/m.png")
+image monika 2bn = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/n.png")
+image monika 2bo = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/o.png")
+image monika 2bp = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/p.png")
+image monika 2bq = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/q.png")
+image monika 2br = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/r.png")
+image monika 2bs = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 2bt = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 2bu = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/1lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
-image monika 3ba = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/a.png")
-image monika 3bb = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/b.png")
-image monika 3bc = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/c.png")
-image monika 3bd = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/d.png")
-image monika 3be = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/e.png")
-image monika 3bf = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/f.png")
-image monika 3bg = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/g.png")
-image monika 3bh = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/h.png")
-image monika 3bi = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/i.png")
-image monika 3bj = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/j.png")
-image monika 3bk = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/k.png")
-image monika 3bl = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/l.png")
-image monika 3bm = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/m.png")
-image monika 3bn = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/n.png")
-image monika 3bo = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/o.png")
-image monika 3bp = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/p.png")
-image monika 3bq = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/q.png")
-image monika 3br = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "monika/r.png")
-image monika 3bs = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 3bt = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cry.png")
-image monika 3bu = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/1rb.png", (0, 0), "mods/monika/cry1.png")
+image monika 3ba = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/a.png")
+image monika 3bb = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/b.png")
+image monika 3bc = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/c.png")
+image monika 3bd = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/d.png")
+image monika 3be = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/e.png")
+image monika 3bf = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/f.png")
+image monika 3bg = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/g.png")
+image monika 3bh = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/h.png")
+image monika 3bi = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/i.png")
+image monika 3bj = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/j.png")
+image monika 3bk = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/k.png")
+image monika 3bl = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/l.png")
+image monika 3bm = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/m.png")
+image monika 3bn = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/n.png")
+image monika 3bo = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/o.png")
+image monika 3bp = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/p.png")
+image monika 3bq = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/q.png")
+image monika 3br = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "monika/r.png")
+image monika 3bs = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 3bt = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 3bu = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/1rb.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
-image monika 4ba = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/a.png")
-image monika 4bb = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/b.png")
-image monika 4bc = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/c.png")
-image monika 4bd = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/d.png")
-image monika 4be = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/e.png")
-image monika 4bf = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/f.png")
-image monika 4bg = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/g.png")
-image monika 4bh = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/h.png")
-image monika 4bi = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/i.png")
-image monika 4bj = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/j.png")
-image monika 4bk = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/k.png")
-image monika 4bl = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/l.png")
-image monika 4bm = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/m.png")
-image monika 4bn = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/n.png")
-image monika 4bo = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/o.png")
-image monika 4bp = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/p.png")
-image monika 4bq = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/q.png")
-image monika 4br = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "monika/r.png")
-image monika 4bs = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "mods/monika/embarrassing.png")
-image monika 4bt = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "mods/monika/cry.png")
-image monika 4bu = im.Composite((960, 960), (0, 0), "mods/monika/2lb.png", (0, 0), "mods/monika/2rb.png", (0, 0), "mods/monika/cry1.png")
+image monika 4ba = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/a.png")
+image monika 4bb = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/b.png")
+image monika 4bc = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/c.png")
+image monika 4bd = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/d.png")
+image monika 4be = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/e.png")
+image monika 4bf = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/f.png")
+image monika 4bg = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/g.png")
+image monika 4bh = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/h.png")
+image monika 4bi = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/i.png")
+image monika 4bj = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/j.png")
+image monika 4bk = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/k.png")
+image monika 4bl = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/l.png")
+image monika 4bm = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/m.png")
+image monika 4bn = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/n.png")
+image monika 4bo = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/o.png")
+image monika 4bp = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/p.png")
+image monika 4bq = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/q.png")
+image monika 4br = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "monika/r.png")
+image monika 4bs = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "mods/DDLCHE/monika/embarrassing.png")
+image monika 4bt = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "mods/DDLCHE/monika/cry.png")
+image monika 4bu = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/2lb.png", (0, 0), "mods/DDLCHE/monika/2rb.png", (0, 0), "mods/DDLCHE/monika/cry1.png")
 
-image monika 5ba = im.Composite((960, 960), (0, 0), "mods/monika/3ab.png")
-image monika 5bb = im.Composite((960, 960), (0, 0), "mods/monika/3bb.png")
+image monika 5ba = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/3ab.png")
+image monika 5bb = im.Composite((960, 960), (0, 0), "mods/DDLCHE/monika/3bb.png")
 
-image man = "mods/man.png"
+image man = "mods/DDLCHE/man.png"
 
 image oldclub = im.MatrixColor("images/bg/club.png", im.matrix.desaturate() * im.matrix.tint(0.9, 0.9, 1.0))
 
@@ -1503,7 +1503,7 @@ default l_exclusivewatched = False
 
 default y_gave = False
 default y_ranaway = False
-
+define repaired = False
 
 default ch1_choice = "sayori"
 
@@ -1511,6 +1511,7 @@ default ch1_choice = "sayori"
 default help_sayori = None
 default help_monika = None
 default monika_complete = False
+default monika_save = False
 
 
 default ch4_scene = "lonely"

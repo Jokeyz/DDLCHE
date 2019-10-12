@@ -96,7 +96,7 @@ image menu_nav:
     menu_nav_move
 
 image menu_logo:
-    "mods/logo.png"
+    "mods/DDLCHE/logo.png"
     subpixel True
     xcenter 240
     ycenter 120
